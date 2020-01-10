@@ -4,3 +4,4 @@ What is Dynammic Programming?
 What is Memoization?
 When should memoization be used?
 * Draw out tree of problems, see if there is a large amount of overlap.
+What is the negative side of memoization?
