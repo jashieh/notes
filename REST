@@ -1,0 +1,11 @@
+# REST
+
+### What is REST?
+REST means Representational State Transfer, an architechural style
+
+## Core Principles
+* Stateless
+* Client-server
+* Uniform Interface
+* Cacheable
+* Layered System
