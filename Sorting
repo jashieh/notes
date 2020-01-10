@@ -1,0 +1,14 @@
+## Selection Sort
+### What is selection sort?
+* finds the next smallest element and swaps it to the front, similar to bubble sort
+What is the speed of selection sort? 
+* (O(n^2))
+What are the advantages of this sort?
+* Advantages: least number of swaps, useful if write speed is slow
+
+## Insertion Sort
+### What is insertion Sort?
+* finds next unsorted item and inserts it to the left of the array where it belongs
+
+What is the advantages of this sort?
+* Linear runtime if the array is already sorted. Good for streamed data where the array is constantly growing.
