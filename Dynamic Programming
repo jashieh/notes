@@ -1,0 +1,6 @@
+What is Dynammic Programming?
+* Saving subsets of problems of to improve efficiency.
+
+What is Memoization?
+When should memoization be used?
+* Draw out tree of problems, see if there is a large amount of overlap.
