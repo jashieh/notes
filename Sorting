@@ -12,3 +12,19 @@ What are the advantages of this sort?
 
 What is the advantages of this sort?
 * Linear runtime if the array is already sorted. Good for streamed data where the array is constantly growing.
+
+## Radix Sort
+### What is Radix Sort?
+* Sort integers by comparing 10s place, then 100s, then 1000s, etc.
+* Place Numbers in "buckets" from 0-9 based on the current comparing place
+* Sorting algorithm for binary/integer data
+
+Steps
+* Get digit at specific place: Math.floor(Math.abs(num) / Math.pow(10, place)) % 10
+* Get number of digits: Math.floor(Math.log10(Math.abs(num))) + 1; 1 if num === 0;
+* Find max number of digits: loop through array and use num digits function
+
+What is the advantages of radix sort?
+* Fastest sorting algorithm
+
+
