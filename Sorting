@@ -28,3 +28,11 @@ What is the advantages of radix sort?
 * Fastest sorting algorithm
 
 
+## Counting Sort
+### What is counting sort?
+* Integer sorting method
+* Allocate array that is length of largest int in array
+* Increment value in counting array when number is encountered in input
+* Loop through counting array and print out sorted array.
+
+
