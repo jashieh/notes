@@ -25,7 +25,7 @@ Steps
 * Find max number of digits: loop through array and use num digits function
 
 What is the advantages of radix sort?
-* Fastest sorting algorithm
+* Fast sorting algorithm (O(n*k) where k is length of longest number and input length)
 
 
 ## Counting Sort
@@ -34,5 +34,11 @@ What is the advantages of radix sort?
 * Allocate array that is length of largest int in array
 * Increment value in counting array when number is encountered in input
 * Loop through counting array and print out sorted array.
+
+Advantage of counting sort?
+* Fastest sorting algo (O(n + k) where k is the largest integer in the set)
+
+Disadvantages?
+* Takes a large amount of space
 
 
