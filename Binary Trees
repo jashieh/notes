@@ -1,0 +1,11 @@
+What is in-order/pre-order/post-order traversal of a tree?
+What is Depth-first/ breath-first search of a tree?
+
+
+Binary Search Tree
+* Left child is less than
+* Right child is greater than or equal to parent
+
+How does a tree balance itself?
+
+Are recursive calls on the call stack considered towards space complexity?
