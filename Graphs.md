@@ -23,3 +23,19 @@ let matrix = [
 /*F*/    [false, false,  false,  false,  true,   true]
 ];
 ```
+
+## Adjacency List
+* Object with node connections
+```javascript
+let graph = {
+    'a': ['b', 'c', 'e'],
+    'b': [],
+    'c': ['b', 'd'],
+    'd': [],
+    'e': ['a'],
+    'f': ['e']
+};
+```
+
+How do we ensure we don't get stuck in a cycle?
+* Use set to keep track of visisted nodes
