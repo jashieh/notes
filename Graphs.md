@@ -39,3 +39,10 @@ let graph = {
 
 How do we ensure we don't get stuck in a cycle?
 * Use set to keep track of visisted nodes
+
+# Weighted Graphs
+Why do we use weighted graphs?
+* To represent real life scenarios like airplane flights with different prices
+
+# Dijkstra's Algorithm
+Given a graph with weighted edges and nodes, find the shortest path from source node to another node.
