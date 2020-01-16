@@ -33,11 +33,11 @@ How do you delete from a heap?
 * Swap with larger child for max heap, smaller child for min heap recursively
 
 How do you represent a heap as an array?
-* Node = i (starting at 1)
+* Node = i 
 * Parent = i/2
-* Left child = 2*i 
-* Right Child = 2*i + 1
-* Ex: [null, 42, 32, 24]
+* Left child = 2*i + 1
+* Right Child = 2*i + 2
+* Ex: [42, 32, 24]
 
 ## Heap Sort
 * Insert into heap
