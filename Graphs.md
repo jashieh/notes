@@ -48,3 +48,8 @@ Why do we use weighted graphs?
 Given a graph with weighted edges and nodes, find the shortest path from source node to another node.
 
 # Topological Sorting
+
+# Heaps
+What is a heap?
+* A partially ordered data structure.
+* Root of tree is either max or min (max or min heap)
