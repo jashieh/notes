@@ -51,3 +51,13 @@ How do you represent a heap as an array?
 What is a complete Tree? 
 * All levels besides bottom level is filled with nodes
 * Bottom level has children filled to the left as much as possible
+
+# Tries (aka prefix tree)
+Search tree used to efficiently store a set of strings for later retrieval.
+
+## What makes a Trie different than a normal tree
+* Tries store values in their edges instead of on the nodes.
+
+## Why use Tries?
+* Tries are more efficient than hash-tables for strings as lookup time is based on the length of the word while the worst
+case for a hash would be the size of the table due to collisions.
