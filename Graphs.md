@@ -49,16 +49,4 @@ Given a graph with weighted edges and nodes, find the shortest path from source 
 
 # Topological Sorting
 
-# Heaps
-What is a heap?
-* A partially ordered data structure.
-* Root of tree is either max or min (max or min heap)
 
-## Max Heap
-* Children of a node are less than or equal to parent
-
-## Min Heap
-* Children of node are greater than or equal to parent
-
-What are the implications of heap data structure?
-* In a max heap, the root will be greater than its children, grandchildren, etc. recursively
