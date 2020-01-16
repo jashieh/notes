@@ -34,9 +34,19 @@ How do you delete from a heap?
 
 How do you represent a heap as an array?
 * Node = i (starting at 1)
+* Parent = i/2
 * Left child = 2*i 
 * Right Child = 2*i + 1
 * Ex: [null, 42, 32, 24]
+
+## Heap Sort
+* Insert into heap
+* Delete the root from heap and store the value until heap is empty
+
+## Heap Sort in place
+* Store sorted part at end of array
+* Store length of heap and sorted array, operate on unsorted part
+
 
 What is a complete Tree? 
 * All levels besides bottom level is filled with nodes
