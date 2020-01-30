@@ -27,3 +27,10 @@
 * Have multiple hash functions, splitting the load between servers evenly
 * Virtual servers make it less likely to load all on 1 server.
 
+## Message / Task Queue
+* Rabbit MQ, Zero MQ
+* Store a list of tasks needed to be completed in DB, have a notifier that pings the server
+every so often to see if tasks are complete (heart-beat)
+* Use consistent hashing to prevent duplicate requests. When server goes down, requests will be sent to the 
+same server.
+
