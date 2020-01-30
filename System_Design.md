@@ -34,14 +34,14 @@ every so often to see if tasks are complete (heart-beat)
 * Use consistent hashing to prevent duplicate requests. When server goes down, requests will be sent to the 
 same server.
 
-# Microservices vs Monolith
+# Microservices vs Monolith Architecture 
 
 ## Monolith
 * Less complex, less duplication, faster
 * More uniform, better for small scale 
 * Cons: too much responsiblity on individual server, hard to learn for new member
 
-## Microserver
+## Microservice 
 * More scalable
 * Each task is small, making it easier to learn
 * Less tight coupling
