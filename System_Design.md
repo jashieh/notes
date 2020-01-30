@@ -47,3 +47,34 @@ same server.
 * Less tight coupling
 * Easier to analyze which specific funtion need to be scaled more
 
+# Database Sharding
+* Improves read/write of DB
+
+## Important database features
+* consistency
+* Availability
+
+## What is sharding?
+* Divide database into sub databases
+* Divide on a certain key such as user_id or location
+
+## Problems
+* Joining across shards
+* What happens when it fails?
+
+## Alternatives
+* NoSQL database
+* Indexing keys
+
+## Master/Slave architecture 
+* Write always goes to master, copies to slaves
+* Slaves continuously read from master and copy data
+* Read can be done from slaves
+* When master fails, slaves decide one to takeover master
+* Single point of failure 
+
+
+
+
+
+
